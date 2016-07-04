@@ -1,6 +1,6 @@
 {
   "name": "bz-modal",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "main": "dist/main.js",
   "keywords": [
     "vue",
