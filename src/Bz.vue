@@ -10,15 +10,12 @@
 
 <script>
   import $ from 'jquery'
-  // import modal from 'semantic-ui/dist/components/modal.js'
   import transition from 'semantic-ui-transition'
   $.fn.transition = transition
   import dimmer from 'semantic-ui-dimmer'
   $.fn.dimmer = dimmer
   import modal from 'semantic-ui-modal'
   $.fn.modal = modal
-
-  console.log($.fn)
 
   export default {
     props: {
