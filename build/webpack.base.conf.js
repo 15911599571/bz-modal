@@ -1,6 +1,7 @@
 var path = require('path')
 var config = require('../config')
 var utils = require('./utils')
+var externals = require('../externals')
 var projectRoot = path.resolve(__dirname, '../')
 
 module.exports = {
@@ -82,10 +83,5 @@ module.exports = {
   vue: {
     loaders: utils.cssLoaders()
   },
-  externals: {
-    jquery: 'jQuery',
-    'semantic-ui-dimmer': 'semantic-ui-dimmer',
-    'semantic-ui-transition': 'semantic-ui-transition',
-    'semantic-ui-modal': 'semantic-ui-modal'
-  }
+  externals: externals
 }
