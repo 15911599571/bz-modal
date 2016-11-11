@@ -1,6 +1,3 @@
-<style lang=less>
-</style>
-
 <template>
   <div class="ui small test modal transition hidden">
     <i v-show="show_close" class="close icon"></i>
